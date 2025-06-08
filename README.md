@@ -34,20 +34,22 @@ BiocManager::install(c("DESeq2", "EnhancedVolcano"))
 ## How to Use
 - Prepare Input Files
 
-- Count Data: A CSV or tab-delimited file with genes as rows and samples as columns. The first column should be gene identifiers (used as row names). Example:
-
+- Count Data: A CSV or tab-delimited file with genes as rows and samples as columns. The first column should be gene identifiers (used as row names).
+- Example:
+```
 Gene	Sample1	Sample2	Sample3	Sample4
 GeneA	10	15	20	5
 GeneB	0	3	2	0
-
-- Condition Data: A CSV or tab-delimited file describing sample conditions. It must contain two columns: Sample and Condition. Example:
-
+```
+- Condition Data: A CSV or tab-delimited file describing sample conditions. It must contain two columns: Sample and Condition.
+- Example:
+```
 Sample	Condition
 Sample1	Control
 Sample2	Control
 Sample3	Treatment
 Sample4	Treatment
-
+```
 ---
 #Upload Files
 
